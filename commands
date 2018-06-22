@@ -1,0 +1,4 @@
+Create a tar file:
+                      tar -cvf filename.tar nameofFolderNeedToCompress
+Extract a tar file to a current directory:
+                                            tar -xvf file.tar
