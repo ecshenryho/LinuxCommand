@@ -6,3 +6,6 @@ change owner of file/directory:
               chown [new owner name]  [file name/ directory name]
 change groups user:
               chgrp [group/user name] [file name/directory name]
+Install deb file:
+              sudo dpkg -i [package name]
+              sudo apt-get install -f 
