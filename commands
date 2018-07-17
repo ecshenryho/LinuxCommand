@@ -21,3 +21,9 @@ git branch:
             create a new branch with its name
             switch to this branch
             git checkout <branch_name>
+git merge:
+            git merge <branch_name>
+            merges this branch to master ( the current branch)
+
+            after merging we can delete the branch:
+            git branch -D <branch_name>
