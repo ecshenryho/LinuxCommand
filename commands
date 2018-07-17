@@ -16,3 +16,8 @@ git reset:
             reverts code back to a previous commit
             git reset --hard origin/master
             reverts code back to remote repository version
+git branch:
+            git branch <branch_name>
+            create a new branch with its name
+            switch to this branch
+            git checkout <branch_name>
