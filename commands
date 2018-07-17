@@ -9,3 +9,5 @@ change groups user:
 Install deb file:
               sudo dpkg -i [package name]
               sudo apt-get install -f 
+git commit:
+            git commit -am "message"
