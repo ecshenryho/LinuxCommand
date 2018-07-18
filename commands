@@ -27,3 +27,21 @@ git merge:
 
             after merging we can delete the branch:
             git branch -D <branch_name>
+change owner group:
+
+            whoami
+            id -gn
+           username of current user, the primary group name of user.
+           sudo chown –R [Username]:[Groupname] /opt/lampp/htdocs
+            only for htdocs directory.
+
+Change the whole Xampp configuration to current user not root by default:
+            make a back-up file:
+            sudo cp /opt/lampp/etc/httpd.conf /opt/lampp/etc/httpd.conf.back
+            open and edit httpd.conf, change user and group to your current user 
+            and group you want and save it.
+
+            testing if Xampp working perfectly:
+            sudo /opt/lampp/lampp restart
+
+            sudo /opt/lampp/lampp status
