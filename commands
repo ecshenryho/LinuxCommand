@@ -50,3 +50,6 @@ switch form git remote https to SSH avoiding enter credentials
 
             check: git remote -v
             switch: git remote set-url origin <SSH link>
+
+open File Browser for current Path:
+            nautilus .
