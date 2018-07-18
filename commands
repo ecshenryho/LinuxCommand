@@ -45,3 +45,8 @@ Change the whole Xampp configuration to current user not root by default:
             sudo /opt/lampp/lampp restart
 
             sudo /opt/lampp/lampp status
+            
+switch form git remote https to SSH avoiding enter credentials
+
+            check: git remote -v
+            switch: git remote set-url origin <SSH link>
