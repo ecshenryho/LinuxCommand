@@ -53,3 +53,7 @@ switch form git remote https to SSH avoiding enter credentials
 
 open File Browser for current Path:
             nautilus .
+
+completely remove mysql:
+
+            sudo apt-get remove --purge mysql-common mysql-client mysql-server
