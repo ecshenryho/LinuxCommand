@@ -77,8 +77,10 @@ Transfer Keybase to a new machine:
 
             1. Install keybase to new machine:
              (go to keybase.io for instruction)
+
             2. Login to keybase on the new machine
                 keybase login
+                
             3. Select the device for authentication
             4. Confirm the new device added on the original machine
             5. Transfer public key to the new machine
