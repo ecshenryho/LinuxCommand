@@ -86,4 +86,7 @@ Transfer Keybase to a new machine:
             6. Transfer private key:
                 keybase pgp export --secret | gpg --allow-secret-key-import --import
 
-
+Configure git for sign commit option:
+            git config --global user.signingkey [your gpg/pgp key from keybase]
+            git config --global commit.gpgsign true  
+            (sign every commit, optional)
