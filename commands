@@ -73,4 +73,16 @@ Make Deployd App:
             $ cd app-name
             $ dpd -d
 
+Transfer Keybase to a new machine:
+            1. install keybase to new machine:
+             (go to keybase.io for instruction)
+            2. login to keybase on the new machine
+                keybase login
+            3. Select the device for authentication
+            4. confirm the new device added on the original machine
+            5. Transfer public key to the new machine
+                keybase pgp export | gpg --import
+            6. Transfer private key:
+                keybase pgp export --secret | gpg --allow-secret-key-import --import
+
 
