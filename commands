@@ -74,6 +74,7 @@ Make Deployd App:
             $ dpd -d
 
 Transfer Keybase to a new machine:
+
             1. Install keybase to new machine:
              (go to keybase.io for instruction)
             2. Login to keybase on the new machine
