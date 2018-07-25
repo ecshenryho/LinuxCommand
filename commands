@@ -1,14 +1,18 @@
 Create a tar file:
                       tar -cvf filename.tar nameofFolderNeedToCompress
+
 Extract a tar file to a current directory:
                                             tar -xvf file.tar
 change owner of file/directory:
             $chown [new owner name]  [file name/ directory name]
+
 change groups user:
             $chgrp [group/user name] [file name/directory name]
+
 Install deb file:
             $sudo dpkg -i [package name]
             $sudo apt-get install -f 
+
 git commit:
             $git commit -am "message"
 git reset:
@@ -94,3 +98,5 @@ Configure git for sign commit option:
             git config --global user.signingkey [your gpg/pgp key from keybase]
             git config --global commit.gpgsign true  
             (sign every commit, optional)
+
+
