@@ -99,4 +99,7 @@ Configure git for sign commit option:
             git config --global commit.gpgsign true  
             (sign every commit, optional)
 
-
+Edit config file for git:
+	    	git config --global -e
+		git config --system -e
+		git config --local -e
