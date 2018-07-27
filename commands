@@ -99,8 +99,19 @@ Configure git for sign commit option:
 
 Edit config file for git:
 	    	git config --global -e
-		git config --system -e
-		git config --local -e
+		    git config --system -e
+		    git config --local -e
+
 Complete remove :
-		Sudo apt-get purge [name] && sudo apt-get autoclean 
+		    sudo apt-get purge [name] && sudo apt-get autoclean 
+
+set up firebase-react:
+
+            npm install firebase --save
+            npm install -g create-react-app
+            create-react-app my-app  
+            cd my-app
+            npm start  
+
+        
 			
