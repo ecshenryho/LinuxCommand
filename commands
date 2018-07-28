@@ -124,12 +124,14 @@ Install Firebase
 Deployment
             1.Run firebase deploy
             2.Run firebase open to open your site automatically.
+
 Configure git for sign commit option:
             git config --global user.signingkey [your gpg/pgp key from keybase]
             git config --global commit.gpgsign true  
             (sign every commit, optional)
 
 Edit config file for git:
+
 	    	git config --global -e
 		    git config --system -e
 		    git config --local -e
@@ -141,6 +143,10 @@ set up firebase-react:
 
             npm install firebase --save
             npm install -g create-react-app
+            npm install -g firebase-tools
+            npm install firebase --save
+            mpm install --save react-router
+            npm install react-router-dom
             create-react-app my-app  
             cd my-app
             npm start  
