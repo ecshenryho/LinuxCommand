@@ -80,12 +80,45 @@ Transfer Keybase to a new machine:
 
             2. Login to keybase on the new machine
                 keybase login
-                
+
             3. Select the device for authentication
             4. Confirm the new device added on the original machine
+
             5. Transfer public key to the new machine
                 keybase pgp export | gpg --import
+                
             6. Transfer private key:
                 keybase pgp export --secret | gpg --allow-secret-key-import --import
 
+Install NodeJs:
+        1. 
+            sudo npm install npm -get
+            sudo chown -R henry:henry /usr/local/lib/node_modules
+            sudo chown -R henry:henry /usr/local/bin/
+            sudo chown -R henry:henry /usr/local/share/
+        2.
+        
+            Create a directory using the command mkdir ~/npm-global
+            Configure npm to set the directory using the following command npm config set prefix ~/npm-global/
+            Create a file named ~/.profile and add the path export PATH=~/npm-global/bin:$PATH
+            Type reset in the terminal
+Install Foundation
 
+            1.Install Foundation command line in npm using npm install -g foundation-cli
+            2.Go to ~/Github directory (or the directory for your projects) and run foundation new.
+            3.Choose "A site" as the installation
+            4.Enter your site name and choose ZURB Template
+            5.Change directory ~/Github/your-web-site
+
+Install Firebase
+
+            1.Install firebase command line using npm install -g firebase-tools
+            2.Run firebase init and enter your-web-site name.
+            3.Run npm start, and it will populate the dist folder with your site.
+            4.Choose dist as your main directory for Firebase.
+            5.Install a local server using npm install -g serve.
+            6.Run serve dist to indicate that you're referring to the Foundation compiled site.
+            7.Try to access Firebase in your localhost. For example, localhost:3000.
+Deployment
+            1.Run firebase deploy
+            2.Run firebase open to open your site automatically.
