@@ -1,14 +1,18 @@
 Create a tar file:
                       tar -cvf filename.tar nameofFolderNeedToCompress
+
 Extract a tar file to a current directory:
                                             tar -xvf file.tar
 change owner of file/directory:
             $chown [new owner name]  [file name/ directory name]
+
 change groups user:
             $chgrp [group/user name] [file name/directory name]
+
 Install deb file:
             $sudo dpkg -i [package name]
             $sudo apt-get install -f 
+
 git commit:
             $git commit -am "message"
 git reset:
@@ -58,9 +62,7 @@ completely remove mysql:
 
             $sudo apt-get remove --purge mysql-common mysql-client mysql-server
 
-Make Deployd App:
-            installation:
-
+Make Deployd App: installation: 
             $ sudo apt update
             $ sudo apt install -y mongodb
             $ sudo systemctl stop mongodb
@@ -122,3 +124,26 @@ Install Firebase
 Deployment
             1.Run firebase deploy
             2.Run firebase open to open your site automatically.
+Configure git for sign commit option:
+            git config --global user.signingkey [your gpg/pgp key from keybase]
+            git config --global commit.gpgsign true  
+            (sign every commit, optional)
+
+Edit config file for git:
+	    	git config --global -e
+		    git config --system -e
+		    git config --local -e
+
+Complete remove :
+		    sudo apt-get purge [name] && sudo apt-get autoclean 
+
+set up firebase-react:
+
+            npm install firebase --save
+            npm install -g create-react-app
+            create-react-app my-app  
+            cd my-app
+            npm start  
+
+        
+			
