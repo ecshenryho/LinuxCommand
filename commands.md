@@ -174,3 +174,61 @@ set up firebase-react:
             create-react-app my-app  
             cd my-app
             npm start  
+List contents of another directory without being in the current of directory:
+
+	    ls  /usr/bin
+	    
+List all files in a directory including hidden file:
+            
+	    ls -a
+	    
+Rename the file while copy:
+
+	    cp .bashrc temp2/.bash
+	    
+Remove directory:
+
+	    rmdir <dir name>
+	    
+List contain of Parent Directory:
+
+	    ll ..
+	  
+Rename file:
+
+	    mv <current name>  <new name>
+	    
+copy a file into a directory:
+
+	    cp <file name>  <directory name>
+	    
+Search for a string "student" in all the files in the /etc directory:
+
+	    grep student /etc/*
+	    or grep -s student /etc/*  
+	    
+Display all processes are running:
+
+	    ps ax
+	    
+Kill a process with PID:
+
+	   kill -9 <#pid>
+	   
+To show current user log in:
+
+	   who or whoami
+	   
+Show the history commands we have entered:
+
+	   history
+	   
+Determine whether a remote system is responding to low-level network activity:
+
+	   ping google.com
+	   ctrl +c 
+	
+
+	   
+
+		
