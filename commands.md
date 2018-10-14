@@ -228,7 +228,15 @@ Determine whether a remote system is responding to low-level network activity:
 	   ping google.com
 	   ctrl +c 
 	
+Set up Flask:
 
+	   pip install virtualenv
+	   mkdir projectName
+	   cd projectName
+	   virtualenv venv
+	   source venv/bin/activate
+	   pip install Flask
+	   
 	   
 
 		
