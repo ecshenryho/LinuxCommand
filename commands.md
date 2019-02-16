@@ -38,6 +38,12 @@ git branch:
             create a new branch with its name
             switch to this branch
             $git checkout <branch_name>
+	    
+	    git checkout <your branch name>
+	    #check if you are on your branch
+	    git branch 
+	    #commit your changes then push it to your branch(not the master branch) using this command
+	    git push --set-upstream origin <your branch name>
             
 git merge:
             $git merge <branch_name>
@@ -237,6 +243,6 @@ Set up Flask:
 	   source venv/bin/activate
 	   pip install Flask
 	   
-	   
+	 
 
 		
