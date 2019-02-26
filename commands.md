@@ -51,6 +51,11 @@ git merge:
 
             after merging we can delete the branch:
             $git branch -D <branch_name>
+
+git clone:
+		
+	    #clone a specific branch 
+	    git clone -b <branch name> <link>
             
 change owner group:
 
