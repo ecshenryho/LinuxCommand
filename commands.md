@@ -169,6 +169,12 @@ Edit config file for git:
 	    git config --global -e
 	    git config --system -e
 	    git config --local -e
+	    
+change origin to your fork version:
+
+   	    git remote remove  origin
+   	    git remote add origin <git copy link>
+   	    git remote -v
 
 Complete remove :
 
